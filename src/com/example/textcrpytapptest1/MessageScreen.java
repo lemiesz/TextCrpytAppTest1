@@ -50,7 +50,7 @@ public class MessageScreen extends Activity {
 			 sendSMS(phoneNumber,message);
 		 } else
 			 Toast.makeText(getApplicationContext(),"Invalid Input", Toast.LENGTH_SHORT).show();
-		 
+		 MainActivity.addThread(this.phoneNumber);
 	 }
 	 private void sendSMS(String phoneNumber,String template)
 	    {

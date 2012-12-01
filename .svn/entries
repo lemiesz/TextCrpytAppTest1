@@ -60,6 +60,27 @@ has-props
 
 364
 
+.git
+dir
+
+
+
+add
+
+.gitattributes
+file
+0
+
+
+add
+
+.gitignore
+file
+0
+
+
+add
+
 .project
 file
 
@@ -130,6 +151,20 @@ has-props
 
 
 1052
+
+Thumbs.db
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
 
 assets
 dir
