@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+
+
+    <EditText
+        android:id="@+id/txtPhoneNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:gravity="top" />
+
+    
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:onClick="send"/>
+    
+    <Button
+        android:id="@+id/btnContacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        android:onClick="pickContact"
+        
+       />
+
+
+</LinearLayout>
